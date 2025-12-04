@@ -168,3 +168,24 @@ svg * {
     scroll-behavior: auto !important;
   }
 }
+
+:root{
+  --color-white: #FFFFFF;
+  --color-light: #F5F5F5;
+  --color-dark: #000000;
+  --color-gray: #9DA3AE;
+  --color-light-gray: #E8EAED;
+  --color-light-gray-2: #DFDEE7;
+
+  --color-accent: #2AD18A;
+
+  --font-family-base: 'Inter', sans-serif;
+  --font-family-accent: 'League Gothic', sans-serif;
+
+  --container-width: 1280px;
+  --container-padding-width: 15px;
+
+  --transition-duration: 0.2s;
+
+  --border-radius: 8px;
+}
