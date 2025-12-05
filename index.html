@@ -14,6 +14,48 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+  <header class="header">
+    <a
+      class="header__logo"
+      href="/"
+      aria-label="Home"
+      title="Home"
+    >SHOW BUSINESS</a>
 
+    <div class="header__overlay">
+
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="/">Home</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="/">Explore</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="/">Inspiration</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="/">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__login">
+        <a class="header__login-link button" href="/">Log in</a>
+      </div>
+
+    </div>
+    <button class="header__burger-button burger-button visible-mobile"
+      type="button"
+      aria-label="Open menu"
+      title="Open menu"
+    >
+    <span class="burger-button__line"></span>
+    <span class="burger-button__line"></span>
+    <span class="burger-button__line"></span>
+    </button>
+  </header>
+  <script src="script.js"></script>
 </body>
 </html>
