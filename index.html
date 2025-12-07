@@ -14,6 +14,16 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+
+<svg style="display: none;">
+
+  <symbol id="icon-comment" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M7 5C5.343 5 4 6.343 4 8v10.713c0 1.09 1.261 1.696 2.112 1.015L9.522 17H17c1.657 0 3-1.343 3-3V8c0-1.657-1.343-3-3-3H7zm1.5 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm-3.5 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm-1.934 5.7L5.3 18.713V8c0-.939.761-1.7 1.7-1.7H17c.939 0 1.7.761 1.7 1.7v6c0 .939-.761 1.7-1.7 1.7H9.066z"></path>
+  </symbol>
+
+</svg>
+
+
   <header class="header">
     <a
       class="header__logo"
@@ -56,6 +66,594 @@
     <span class="burger-button__line"></span>
     </button>
   </header>
-  <script src="script.js"></script>
+
+
+<main class="container">
+
+  <section class="news-feed">
+
+    <div class="news-feed__main">
+      <article class="hero-card">
+        <picture>
+          <source srcset="images/Princess1.avif" type="image/avif">
+          <source srcset="images/Princess1.webp" type="image/webp">
+          <img class="hero-card__image" src="./images/Princess1.png" srcset="./images/Princess2.png 2x" alt="Princess Beatrice wedding" >
+        </picture>
+        <h1 class="hero-card__title">
+          <a class="hero-card__link" href="/">Princess Beatrice's Wedding</a>
+        </h1>
+        <p class="hero-card__description">
+          Coverage of Princess Beatrice's wedding to Edoardo Mapelli Mozzi in July 2020. Coverage of Princess Beatrice's wedding to Edoardo Mapelli.
+        </p>
+
+      </article>
+    </div>
+
+    <aside class="news-feed__aside">
+      <div class="top-stories">
+        <h2 class="top-stories__heading">Top Stories</h2>
+
+        <ul class="top-stories__list">
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">1</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Kim Kardashian and Kanye West Divorce</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/Kim1.avif" type="image/avif">
+                <source srcset="images/Kim1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/Kim1.png" srcset="./images/Kim2.png 2x" alt="Kim and Kanye West Divorce" >
+              </picture>
+
+            </article>
+          </li>
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">2</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Prince Harry and Meghan Markle's Exit from Royal Duties</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/HarryandMeghan1.avif" type="image/avif">
+                <source srcset="images/HarryandMeghan1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/HarryandMeghan1.png" srcset="./images/HarryandMeghan2.png 2x" alt="Prince Harry and Meghan Markle Exit from Royal Duties">
+              </picture>
+
+            </article>
+          </li>
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">3</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Adele's weight extremal loss transformation</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/Adele1.avif" type="image/avif">
+                <source srcset="images/Adele1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/Adele1.png" srcset="./images/Adele2.png 2x" alt="Adele's Transformation" >
+              </picture>
+
+            </article>
+          </li>
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">4</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Bennifer Reunion (Jennifer Lopez and Ben Affleck)</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/Bennifer1.avif" type="image/avif">
+                <source srcset="images/Bennifer1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/Bennifer1.png" srcset="./images/Bennifer2.png 2x" alt="Bennifer Reunion">
+              </picture>
+
+            </article>
+          </li>
+
+        </ul>
+      </div>
+    </aside>
+
+  </section>
+
+
+
+  <section class="news-feed">
+
+    <aside class="news-feed__aside">
+      <div class="top-stories">
+        <h2 class="top-stories__heading">Top Stories</h2>
+
+        <ul class="top-stories__list">
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">1</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Taylor Swift's Re-Recordings</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/Taylor1.avif" type="image/avif">
+                <source srcset="images/Taylor1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/Taylor1.png" srcset="./images/Taylor2.png 2x" alt="Taylor Swift's Re-Recordings">
+              </picture>
+
+            </article>
+          </li>
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">2</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Prince Harry and Meghan Markle's Oprah Interview Fallout</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/Oprah1.avif" type="image/avif">
+                <source srcset="images/Oprah1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/Oprah1.png" srcset="./images/Oprah2.png 2x" alt="Harry and Meghan Oprah Interview Fallout">
+              </picture>
+
+            </article>
+          </li>
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">3</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Kanye West's Donda Album Release and Public Statements</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/Kanye1.avif" type="image/avif">
+                <source srcset="images/Kanye1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/Kanye1.png" srcset="./images/Kanye2.png 2x" alt="Donda Album Release" >
+              </picture>
+
+            </article>
+          </li>
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">4</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Britney Spears' Conservatorship Battle</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/Britney1.avif" type="image/avif">
+                <source srcset="images/Britney1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/Britney1.png" srcset="./images/Britney2.png 2x" alt="Britney Spears">
+              </picture>
+
+            </article>
+          </li>
+
+        </ul>
+      </div>
+    </aside>
+
+    <div class="news-feed__main">
+      <article class="hero-card">
+        <picture>
+          <source srcset="images/Prince1.avif" type="image/avif">
+          <source srcset="images/Prince1.webp" type="image/webp">
+          <img class="hero-card__image" src="./images/Prince1.png" srcset="./images/Prince2.png 2x" alt="Prince Philip's Passing" >
+        </picture>
+        <h1 class="hero-card__title">
+          <a class="hero-card__link" href="/">Prince Philip's Passing</a>
+        </h1>
+        <p class="hero-card__description">
+          Reflections and tributes following the death of Prince Philip, Duke of Edinburgh, in April 2021.
+        </p>
+
+      </article>
+    </div>
+
+  </section>
+
+
+
+  <section class="news-feed">
+
+    <div class="news-feed__main">
+      <article class="hero-card">
+        <picture>
+          <source srcset="images/Gaga1.avif" type="image/avif">
+          <source srcset="images/Gaga1.webp" type="image/webp">
+          <img class="hero-card__image" src="./images/Gaga1.png" srcset="./images/Gaga2.png 2x" alt="Lady Gaga in 'House of Gucci'" >
+        </picture>
+        <h1 class="hero-card__title">
+          <a class="hero-card__link" href="/">Lady Gaga in "House of Gucci"</a>
+        </h1>
+        <p class="hero-card__description">
+          News and reviews surrounding Lady Gaga's performance in the film "House of Gucci," where she portrays Patrizia Reggiani. Lady Gaga's performance.
+        </p>
+
+      </article>
+    </div>
+
+    <aside class="news-feed__aside">
+      <div class="top-stories">
+        <h2 class="top-stories__heading">Top Stories</h2>
+
+        <ul class="top-stories__list">
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">1</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Queen Elizabeth II's Platinum Jubilee Celebrations</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/Elizabeth1.avif" type="image/avif">
+                <source srcset="images/Elizabeth1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/Elizabeth1.png" srcset="./images/Elizabeth2.png 2x" alt="Queen Elizabeth Jubilee Celebrations" >
+              </picture>
+
+            </article>
+          </li>
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">2</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Prince William and Kate Middleton's Public Engagements</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/WilliamandKate1.avif" type="image/avif">
+                <source srcset="images/WilliamandKate1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/WilliamandKate1.png" srcset="./images/WilliamandKate2.png 2x" alt="Harry and Meghan Public Engagements">
+              </picture>
+
+            </article>
+          </li>
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">3</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Prince Harry and Meghan Markle's Activities</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/Activities1.avif" type="image/avif">
+                <source srcset="images/Activities1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/Activities1.png" srcset="./images/Activities2.png 2x" alt="Harry and Meghan Activities" >
+              </picture>
+
+            </article>
+          </li>
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">4</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Royal Family Responses to Controversies</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/Royal1.avif" type="image/avif">
+                <source srcset="images/Royal1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/Royal1.png" srcset="./images/Royal2.png 2x" alt="Royal Family Responses to Controversies">
+              </picture>
+
+            </article>
+          </li>
+
+        </ul>
+      </div>
+    </aside>
+
+  </section>
+
+
+
+  <section class="news-feed">
+
+    <aside class="news-feed__aside">
+      <div class="top-stories">
+        <h2 class="top-stories__heading">Top Stories</h2>
+
+        <ul class="top-stories__list">
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">1</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">The Royal Family's Social Media Presence</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/Presence1.avif" type="image/avif">
+                <source srcset="images/Presence1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/Presence1.png" srcset="./images/Presence2.png 2x" alt="The Royal Family's Social Media Presence">
+              </picture>
+
+            </article>
+          </li>
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">2</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Zendaya's Career Achievements</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/Zendaya1.avif" type="image/avif">
+                <source srcset="images/Zendaya1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/Zendaya1.png" srcset="./images/Zendaya2.png 2x" alt="Zendaya's Career Achievements">
+              </picture>
+
+            </article>
+          </li>
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">3</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Prince William's Earthshot Prize Initiative</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/Prize1.avif" type="image/avif">
+                <source srcset="images/Prize1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/Prize1.png" srcset="./images/Prize2.png 2x" alt="Prince William's Earthshot Prize Initiative" >
+              </picture>
+
+            </article>
+          </li>
+
+          <li class="top-stories__item">
+            <article class="story-item">
+              <div class="story-item__rank">4</div>
+
+              <div class="story-item__info">
+                <h3 class="story-item__title">
+                  <a class="story-item__link" href="/">Chris Pratt's Film Projects</a>
+                </h3>
+
+                <div class="story-item__author">DAVID PIERCE</div>
+                <div class="story-item__wrapper">
+                  <time class="story-item__date">10:00 AM</time>
+                  <svg class="icon-comment" aria-hidden="true">
+                    <use href="#icon-comment"></use>
+                  </svg>
+                  <span class="story-item__comments">87</span>
+                </div>
+              </div>
+
+              <picture>
+                <source srcset="images/Chris1.avif" type="image/avif">
+                <source srcset="images/Chris1.webp" type="image/webp">
+                <img class="story-item__image" src="./images/Chris1.png" srcset="./images/Chris2.png 2x" alt="Chris Pratt Projects">
+              </picture>
+
+            </article>
+          </li>
+
+        </ul>
+      </div>
+    </aside>
+
+    <div class="news-feed__main">
+      <article class="hero-card">
+        <picture>
+          <source srcset="images/Rock1.avif" type="image/avif">
+          <source srcset="images/Rock1.webp" type="image/webp">
+          <img class="hero-card__image" src="./images/Rock1.png" srcset="./images/Rock2.png 2x" alt="The Rock Johnson's Projects" >
+        </picture>
+        <h1 class="hero-card__title">
+          <a class="hero-card__link" href="/">'The Rock' Johnson's Projects</a>
+        </h1>
+        <p class="hero-card__description">
+          Updates on Dwayne Johnson's upcoming film and television projects, as well as his business ventures and philanthropic activities. Well as his business ventures and philanthropic activities.
+        </p>
+
+      </article>
+    </div>
+
+  </section>
+
+</main>
+
+<script src="script.js"></script>
 </body>
 </html>
