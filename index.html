@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta
     name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    content="width=device-width, initial-scale=1.0"
   >
   <meta
     http-equiv="X-UA-Compatible"
     content="ie=edge"
   >
+  <meta name="description" content="Адаптивная верстка лендинга по макету. HTML5, CSS3, минимальный JavaScript.">
   <title>Show Business | Home</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
@@ -24,7 +25,7 @@
 </svg>
 
 
-  <header class="header">
+<header class="header">
     <a
       class="header__logo"
       href="/"
@@ -70,18 +71,22 @@
 
 <main class="container">
 
+  <h1 class="visually-hidden">News</h1>
+
+
   <section class="news-feed">
+    <h2 class="visually-hidden">News feed section</h2>
 
     <div class="news-feed__main">
       <article class="hero-card">
         <picture>
           <source srcset="images/Princess1.avif" type="image/avif">
           <source srcset="images/Princess1.webp" type="image/webp">
-          <img class="hero-card__image" src="./images/Princess1.png" srcset="./images/Princess2.png 2x" alt="Princess Beatrice wedding" >
+          <img class="hero-card__image" src="./images/Princess1.png" srcset="./images/Princess2.png 2x" alt="Princess Beatrice wedding" fetchpriority="high">
         </picture>
-        <h1 class="hero-card__title">
+        <h2 class="hero-card__title">
           <a class="hero-card__link" href="/">Princess Beatrice's Wedding</a>
-        </h1>
+        </h2>
         <p class="hero-card__description">
           Coverage of Princess Beatrice's wedding to Edoardo Mapelli Mozzi in July 2020. Coverage of Princess Beatrice's wedding to Edoardo Mapelli.
         </p>
@@ -91,7 +96,7 @@
 
     <aside class="news-feed__aside">
       <div class="top-stories">
-        <h2 class="top-stories__heading">Top Stories</h2>
+        <h3 class="top-stories__heading">Top Stories</h3>
 
         <ul class="top-stories__list">
 
@@ -100,13 +105,13 @@
               <div class="story-item__rank">1</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Kim Kardashian and Kanye West Divorce</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -129,13 +134,13 @@
               <div class="story-item__rank">2</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Prince Harry and Meghan Markle's Exit from Royal Duties</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -157,13 +162,13 @@
               <div class="story-item__rank">3</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Adele's weight extremal loss transformation</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -185,13 +190,13 @@
               <div class="story-item__rank">4</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Bennifer Reunion (Jennifer Lopez and Ben Affleck)</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -217,10 +222,11 @@
 
 
   <section class="news-feed">
+    <h2 class="visually-hidden">News feed section</h2>
 
     <aside class="news-feed__aside">
       <div class="top-stories">
-        <h2 class="top-stories__heading">Top Stories</h2>
+        <h3 class="top-stories__heading">Top Stories</h3>
 
         <ul class="top-stories__list">
 
@@ -229,13 +235,13 @@
               <div class="story-item__rank">1</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Taylor Swift's Re-Recordings</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -258,13 +264,13 @@
               <div class="story-item__rank">2</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Prince Harry and Meghan Markle's Oprah Interview Fallout</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -286,13 +292,13 @@
               <div class="story-item__rank">3</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Kanye West's Donda Album Release and Public Statements</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -314,13 +320,13 @@
               <div class="story-item__rank">4</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Britney Spears' Conservatorship Battle</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -348,9 +354,9 @@
           <source srcset="images/Prince1.webp" type="image/webp">
           <img class="hero-card__image" src="./images/Prince1.png" srcset="./images/Prince2.png 2x" alt="Prince Philip's Passing" >
         </picture>
-        <h1 class="hero-card__title">
+        <h2 class="hero-card__title">
           <a class="hero-card__link" href="/">Prince Philip's Passing</a>
-        </h1>
+        </h2>
         <p class="hero-card__description">
           Reflections and tributes following the death of Prince Philip, Duke of Edinburgh, in April 2021.
         </p>
@@ -363,6 +369,7 @@
 
 
   <section class="news-feed">
+    <h2 class="visually-hidden">News feed section</h2>
 
     <div class="news-feed__main">
       <article class="hero-card">
@@ -371,9 +378,9 @@
           <source srcset="images/Gaga1.webp" type="image/webp">
           <img class="hero-card__image" src="./images/Gaga1.png" srcset="./images/Gaga2.png 2x" alt="Lady Gaga in 'House of Gucci'" >
         </picture>
-        <h1 class="hero-card__title">
+        <h2 class="hero-card__title">
           <a class="hero-card__link" href="/">Lady Gaga in "House of Gucci"</a>
-        </h1>
+        </h2>
         <p class="hero-card__description">
           News and reviews surrounding Lady Gaga's performance in the film "House of Gucci," where she portrays Patrizia Reggiani. Lady Gaga's performance.
         </p>
@@ -383,7 +390,7 @@
 
     <aside class="news-feed__aside">
       <div class="top-stories">
-        <h2 class="top-stories__heading">Top Stories</h2>
+        <h3 class="top-stories__heading">Top Stories</h3>
 
         <ul class="top-stories__list">
 
@@ -392,13 +399,13 @@
               <div class="story-item__rank">1</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Queen Elizabeth II's Platinum Jubilee Celebrations</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -421,13 +428,13 @@
               <div class="story-item__rank">2</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Prince William and Kate Middleton's Public Engagements</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -449,13 +456,13 @@
               <div class="story-item__rank">3</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Prince Harry and Meghan Markle's Activities</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -477,13 +484,13 @@
               <div class="story-item__rank">4</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Royal Family Responses to Controversies</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -509,10 +516,11 @@
 
 
   <section class="news-feed">
+    <h2 class="visually-hidden">News feed section</h2>
 
     <aside class="news-feed__aside">
       <div class="top-stories">
-        <h2 class="top-stories__heading">Top Stories</h2>
+        <h3 class="top-stories__heading">Top Stories</h3>
 
         <ul class="top-stories__list">
 
@@ -521,13 +529,13 @@
               <div class="story-item__rank">1</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">The Royal Family's Social Media Presence</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -550,13 +558,13 @@
               <div class="story-item__rank">2</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Zendaya's Career Achievements</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -578,13 +586,13 @@
               <div class="story-item__rank">3</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Prince William's Earthshot Prize Initiative</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -606,13 +614,13 @@
               <div class="story-item__rank">4</div>
 
               <div class="story-item__info">
-                <h3 class="story-item__title">
+                <h4 class="story-item__title">
                   <a class="story-item__link" href="/">Chris Pratt's Film Projects</a>
-                </h3>
+                </h4>
 
                 <div class="story-item__author">DAVID PIERCE</div>
                 <div class="story-item__wrapper">
-                  <time class="story-item__date">10:00 AM</time>
+                  <time class="story-item__date" datetime="10:00">10:00 AM</time>
                   <svg class="icon-comment" aria-hidden="true">
                     <use href="#icon-comment"></use>
                   </svg>
@@ -640,9 +648,9 @@
           <source srcset="images/Rock1.webp" type="image/webp">
           <img class="hero-card__image" src="./images/Rock1.png" srcset="./images/Rock2.png 2x" alt="The Rock Johnson's Projects" >
         </picture>
-        <h1 class="hero-card__title">
+        <h2 class="hero-card__title">
           <a class="hero-card__link" href="/">'The Rock' Johnson's Projects</a>
-        </h1>
+        </h2>
         <p class="hero-card__description">
           Updates on Dwayne Johnson's upcoming film and television projects, as well as his business ventures and philanthropic activities. Well as his business ventures and philanthropic activities.
         </p>
@@ -655,8 +663,8 @@
 </main>
 
 
-
 <section class="related-news container">
+  <h2 class="visually-hidden">Related News</h2>
 
   <ul class="related-news__list">
 
@@ -668,9 +676,9 @@
           <img class="related-card__image" src="./images/RyanandBlake1.png" srcset="./images/RyanandBlake2.png 2x" alt="Ryan Reynolds and Blake Lively's Philanthropy" >
         </picture>
 
-        <h2 class="related-card__title">
+        <h3 class="related-card__title">
           <a class="related-card__link" href="/">Ryan Reynolds and Blake Lively's Philanthropy</a>
-        </h2>
+        </h3>
 
         <p class="related-card__description">
           Updates on the philanthropic activities of Ryan Reynolds.
@@ -686,9 +694,9 @@
           <img class="related-card__image" src="./images/Andrew1.png" srcset="./images/Andrew2.png 2x" alt="Prince Andrew's Legal Issues" >
         </picture>
 
-        <h2 class="related-card__title">
+        <h3 class="related-card__title">
           <a class="related-card__link" href="/">Prince Andrew's Legal Issues</a>
-        </h2>
+        </h3>
 
         <p class="related-card__description">
           Ongoing coverage of legal matters involving Prince Andrew.
@@ -704,9 +712,9 @@
           <img class="related-card__image" src="./images/Reese1.png" srcset="./images/Reese2.png 2x" alt="Reese Witherspoon's Production Ventures" >
         </picture>
 
-        <h2 class="related-card__title">
+        <h3 class="related-card__title">
           <a class="related-card__link" href="/">Reese Witherspoon's Production Ventures</a>
-        </h2>
+        </h3>
 
         <p class="related-card__description">
           News on Leonardo DiCaprio's ongoing environmental.
@@ -722,9 +730,9 @@
           <img class="related-card__image" src="./images/Health1.png" srcset="./images/Health2.png 2x" alt="Queen Elizabeth II's Health Updates" >
         </picture>
 
-        <h2 class="related-card__title">
+        <h3 class="related-card__title">
           <a class="related-card__link" href="/">Queen Elizabeth II's Health Updates</a>
-        </h2>
+        </h3>
 
         <p class="related-card__description">
           Periodic updates on the health of Queen Elizabeth II.
@@ -741,9 +749,9 @@
           <img class="related-card__image" src="./images/Memoir1.png" srcset="./images/Memoir2.png 2x" alt="Prince Harry's Memoir" >
         </picture>
 
-        <h2 class="related-card__title">
+        <h3 class="related-card__title">
           <a class="related-card__link" href="/">Prince Harry's Memoir Announcement</a>
-        </h2>
+        </h3>
 
         <p class="related-card__description">
           Reports on Prince Harry's announcement of a forthcoming.
@@ -759,9 +767,9 @@
           <img class="related-card__image" src="./images/Leonardo1.png" srcset="./images/Leonardo2.png 2x" alt="Leonardo DiCaprio's Environmental Advocacy" >
         </picture>
 
-        <h2 class="related-card__title">
+        <h3 class="related-card__title">
           <a class="related-card__link" href="/">Leonardo DiCaprio's Environmental Advocacy</a>
-        </h2>
+        </h3>
 
         <p class="related-card__description">
           News on Leonardo DiCaprio's ongoing environmental advocacy.
@@ -777,9 +785,9 @@
           <img class="related-card__image" src="./images/Pregnancy1.png" srcset="./images/Pregnancy2.png 2x" alt="Princess Eugenie's Pregnancy" >
         </picture>
 
-        <h2 class="related-card__title">
+        <h3 class="related-card__title">
           <a class="related-card__link" href="/">Princess Eugenie's Pregnancy Announcement</a>
-        </h2>
+        </h3>
 
         <p class="related-card__description">
           News about Princess Eugenie, daughter of Prince Andrew.
@@ -795,9 +803,9 @@
           <img class="related-card__image" src="./images/Emma1.png" srcset="./images/Emma2.png 2x" alt="Emma Stone's Role in 'Cruella'" >
         </picture>
 
-        <h2 class="related-card__title">
+        <h3 class="related-card__title">
           <a class="related-card__link" href="/">Emma Stone's Role in "Cruella"</a>
-        </h2>
+        </h3>
 
         <p class="related-card__description">
           Coverage of Emma Stone's role as the iconic Disney villain.
