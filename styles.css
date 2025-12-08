@@ -261,7 +261,6 @@ h1, .h1 {
   font-size: 17px;
   display: inline-block;
   white-space: nowrap;
-  pointer-events: none;
 }
 
 .header__menu-link:hover {
@@ -861,4 +860,8 @@ picture {
   .footer__item {
     font-size: 12px;
   }
+}
+
+body.menu-open {
+  overflow: hidden;
 }
