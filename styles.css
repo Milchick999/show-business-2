@@ -786,3 +786,79 @@ picture {
     font-size: 14px;
   }
 }
+
+
+
+.footer {
+  border-top: 1px solid var(--color-gray);
+  padding-block: 80px;
+  margin-top: 40px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--color-dark);
+}
+
+.footer__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.6;
+  color: var(--color-dark);
+}
+
+.footer__link:hover {
+  color: var(--color-accent);
+  transition: var(--transition-duration);
+}
+
+.footer__item:not(:last-child)::after {
+  content: "/";
+  margin-left: 6px;
+  color: var(--color-dark);
+  pointer-events: none;
+}
+
+
+@media (max-width: 1024px) {
+  .footer__item {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer{
+    padding-block: 40px;
+  }
+
+  .footer__logo {
+    font-size: 18px;
+  }
+
+  .footer__list {
+    gap: 8px;
+  }
+
+  .footer__item {
+    font-size: 12px;
+  }
+}
